@@ -4,7 +4,7 @@
 
 A series of queries to fetch the relevant bits of the [ARRL 2023 Volunteers on the Air](https://vota.arrl.org/) databases; primarily, the callsign-to-ARRL-role mappings, but also the leaderboard.
 
-Also, the VOTA points database this produces (not the leaderboard), in the [results/](results/) folder.
+Also, the VOTA points database this produces (not the leaderboard), in the [results/](results/) folder. This copy was collected during time that the following provenance data was displayed on the [Call Sign Points](https://vota.arrl.org/callPoints.php) page: "Point information was last updated: 2023/10/16 21:39:24 UTC"
 
 ## Who did this?
 
@@ -51,7 +51,7 @@ Instead have something like
 
 > N7UVH counts for 30 points through 2024-01-01 00:00:00.
 
-...what gives? _I have no idea._ I looked through the QRZ pages for many of the **65** people that have this status in the DB and couldn't find any commonalities. I should just email them and ask them who they are. :-)
+...what gives? _I have no idea._ I looked through the QRZ pages for many of the **65** people that have this status in the DB and couldn't find any commonalities or mentions of why they had a special number of points. (In fact, some of them mention "lesser" roles (that is, roles worth fewer points in VOTA) that are "covered" by their higher point total, just as my (K3QB) Volunteer Examiner (5 points) role is "covered" by my Volunteer Counsel (15 points) role. VOTA did not allow people with multiple roles to score as the total of their roles, only as the highest-value single role.) I should just email them and ask them who they are. :-)
 
 ## LICENSE
 
