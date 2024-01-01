@@ -6,6 +6,10 @@ A series of queries to fetch the relevant bits of the [ARRL 2023 Volunteers on t
 
 Also, the VOTA points database this produces (not the leaderboard), in the [results/](results/) folder.
 
+## Who did this?
+
+Brendan O'Connor, but on the amateur airwaves I'm known as K3QB. Within the ARRL, I'm a [Volunteer Counsel](https://www.arrl.org/vc-description) in the Northwest Division. I'm also the trustee of the [Narwhal Amateur Radio Society (NR7WL)](https://nars.narwhal.be).
+
 ## Why?
 
 I wanted to be able to query points while looking at my logs for 2023. Having them stored in a database makes that as easy as a LEFT JOIN. More broadly, I think there are some interesting things to be learned from this data, so I wanted to make the data available.
