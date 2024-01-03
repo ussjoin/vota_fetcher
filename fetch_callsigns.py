@@ -121,6 +121,10 @@ if __name__ == "__main__":
             time.sleep(60)
         else:  # Successfully finished batch
             print(callsign_structs)
-            store_callsigns(callsign_structs)
-            print(f"\tSUCCESS: Stored {len(callsign_structs)} callsigns.")
-            time.sleep(5)
+            if len(callsign_structs) > 0:
+              store_callsigns(callsign_structs)
+              print(f"\tSUCCESS: Stored {len(callsign_structs)} callsigns.")
+              time.sleep(5)
+            else:
+              print("\tEND: No more callsigns need to be updated, terminating.")
+              exit(0)
