@@ -103,7 +103,7 @@ def store_rankings(rankings_structs):
 if __name__ == "__main__":
     LEADERBOARD_URL = "https://vota.arrl.org/leaderboard.php?page="
     COUNTER = 1
-    STOP = 715
+    STOP = 718
     err_happened = False
     while COUNTER <= STOP:
         if err_happened:
