@@ -103,7 +103,7 @@ def store_rankings(rankings_structs):
 if __name__ == "__main__":
     LEADERBOARD_URL = "https://vota.arrl.org/leaderboard.php?page="
     COUNTER = 1
-    STOP = 724
+    STOP = 726
     err_happened = False
     while COUNTER <= STOP:
         if err_happened:
@@ -165,5 +165,5 @@ if __name__ == "__main__":
             store_callsigns(list_of_callsigns)
             store_rankings(rankings_list)
             print(f"\t Successfully grabbed and stored page {COUNTER}.")
-            time.sleep(5)
+            time.sleep(2)
             COUNTER = COUNTER + 1
